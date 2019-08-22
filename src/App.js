@@ -1,9 +1,15 @@
 import React from 'react';
 
+import { Title, TitleSmall } from './styles';
+
 function App() {
   return (
     <div>
-      <h1>Hello world!</h1>
+      <Title fontSize={20}>
+        Hello world!
+        <span>Texto menor</span>
+      </Title>
+      <TitleSmall>Menor</TitleSmall>
     </div>
   );
 }
